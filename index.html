@@ -3,203 +3,238 @@
 
 <head>
 
-    <!-- METADATOS -->
-    <meta charset="UTF-8">
-    <meta name="author" contet="Jose Abel Romero Parra">
-    <!-- AJUSTA LA VENTANA DEL NAVEGADOR AL DISPOSITIVO -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <meta name="Description" content="Trading de Indice Sinteticos y Forex">
-    <meta name="Keywords" content="Trading, Forex, Sinteticos, SmartMoney,IPDA">
+  <!-- METADATOS -->
+  <meta charset="UTF-8">
+  <meta name="author" contet="Jose Abel Romero Parra">
+  <!-- AJUSTA LA VENTANA DEL NAVEGADOR AL DISPOSITIVO -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description" content="Trading de Indice Sinteticos y Forex">
+  <meta name="Keywords" content="Trading, Forex, Sinteticos, SmartMoney,IPDA">
 
-    <!-- TITULO -->
-    <title>JarpTrading</title>
-    <!-- FAVICON -->
-     <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
-    <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- TITULO -->
+  <title>JarpTrading</title>
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <!-- BOOTSTRAPICONS -->
+  <!-- BOOTSTRAPICONS -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="estilos/general.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="estilos/general.css">
 
-    <!-- LIBRERIA PARA OBTENER ICONOS DE BANDERAS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+  <!-- LIBRERIA PARA OBTENER ICONOS DE BANDERAS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
 
-    <!-- FONTS GOOGLE -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    
+  <!-- FONTS GOOGLE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!-- BARRA DE NAVEGACION -->
-    <nav class="navbar navbar-expand-sm bg-dark menu ">
-        <div class="container-fluid  cabeza">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center " id="navbarToggler">
-            
-            <div class="navbar-nav ">
-              
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              
-              
-                <a class="nav-link active" aria-current="page" href="#">Estructura del Mercado</a>
-              
-             
-                <a class="nav-link active" aria-current="page" href="#">Liquidez</a>
-            
-             
-                <a class="nav-link active" aria-current="page" href="#">Order Block</a>
-              
-             
-                <a class="nav-link active" aria-current="page" href="#">Puntos de Interes</a>
-            
-              
-                <a class="nav-link active" aria-current="page" href="#">Entradas</a>
-           
-              
-              
+  <!-- BARRA DE NAVEGACION -->
+  <nav class="navbar navbar-expand-sm bg-dark menu ">
+    <div class="container-fluid  cabeza">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center " id="navbarToggler">
+
+        <div class="navbar-nav ">
+
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+
+
+          <a class="nav-link active" aria-current="page" href="#">Estructura del Mercado</a>
+
+
+          <a class="nav-link active" aria-current="page" href="#">Liquidez</a>
+
+
+          <a class="nav-link active" aria-current="page" href="#">Order Block</a>
+
+
+          <a class="nav-link active" aria-current="page" href="#">Puntos de Interes</a>
+
+
+          <a class="nav-link active" aria-current="page" href="#">Entradas</a>
+
+
+
+        </div>
+
+      </div>
+    </div>
+  </nav>
+  <!-- INFORMACION ROTATIVA -->
+  <div class="container-fluid">
+    <div class="row info">
+      <div class="col d-flex justify-content-center align-items-center  datos">
+        <div id="exchange-rate"></div><img class="cop" float="left" src="imagenes/Colombia.png" alt="bandera Colombia">
+      </div>
+
+      <div class="col d-flex justify-content-center align-items-center  datos">
+        <div id="exchange-rateEur"></div><img class="cop" float="left" src="imagenes/España.png" alt="bandera España">
+      </div>
+
+      <div class="col d-flex justify-content-center align-items-center  datos">
+        <div id="exchange-rateJpy"></div><img class="cop" float="left" src="imagenes/Japon.png" alt="bandera Japon">
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+    <div class="container-fluid">
+      <div class="row contenido ">
+        <div class="col-sm-12 col-md-6 temas">
+          <div class="accordion" id="accordiontemas">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <div class="titulo-tema">¿ Qué es el Trading?</div>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordiontemas">
+                <div class="accordion-body">
+                  El trading (en español, negociación, comercio) hace referencia a la compra y venta de instrumentos financieros, tales como acciones, índices, commodities, futuros, divisas, entre otros, en un mercado financiero, con el objetivo de obtener un beneficio. El trading se basa principalmente en el análisis técnico, el análisis fundamental y la aplicación de una estrategia concreta para operar.
+                </div>
+              </div>
             </div>
-           
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <div class="titulo-tema">Mercados Financiero</div>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <div class="titulo-tema">¿ Qué es un Broker?</div>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <div class="titulo-tema">¿ Metatrader 5?</div>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordiontemas">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                  plugin adds the appropriate classes that we use to style each element. These classes control the
+                  overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                  can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    <!-- INFORMACION ROTATIVA -->
-     <div class="container-fluid">
-            <div class="row info">
-                <div class="col d-flex justify-content-center align-items-center  datos">
-                  <div id="exchange-rate"></div><img class="cop" float="left" src="imagenes/Colombia.png" alt="bandera Colombia"></div>
+        <div class="col-sm-12 col-md-6 video">
 
-                  <div class="col d-flex justify-content-center align-items-center  datos">
-                    <div id="exchange-rateEur"></div><img class="cop" float="left" src="imagenes/España.png" alt="bandera España"></div>
-
-                    <div class="col d-flex justify-content-center align-items-center  datos">
-                      <div id="exchange-rateJpy"></div><img class="cop" float="left" src="imagenes/Japon.png" alt="bandera Japon"></div>
-                  
-                
-              
-            </div>
-
+          <div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/GvXdLQGxwk4?si=oBGvHyYPKbi3pg_M"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
         </div>
-    
-
-    <!-- CONTENIDO PRINCIPAL -->
-    <main>
-        <div class="container-fluid">
-            <div class="row contenido ">
-                <div class="col-sm-12 col-md-6 temas"><div class="accordion" id="accordiontemas">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          ¿ Qué es el Trading?
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordiontemas">
-                        <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Mercados Financiero
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          ¿ Qué es un Broker? 
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            ¿ Metatrader 5?
-                          </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordiontemas">
-                          <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 video">
-                    
-                    <div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/GvXdLQGxwk4?si=oBGvHyYPKbi3pg_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>
-            </div>
-        </div>
-
-    </main>
-    <!-- CONTENIDO SECUNDARIO -->
-    <div class="container-fluid text-white bg-dark titulo">
-        <div class="row ">
-            <div class="col d-flex justify-content-center align-items-center caja-titulo">observa mis analisis</div>
-        </div>
+      </div>
     </div>
-    <div class="container-fluid">
-        
+
+  </main>
+  <!-- CONTENIDO SECUNDARIO -->
+  <div class="container-fluid text-white bg-dark titulo">
+    <div class="row ">
+      <div class="col d-flex justify-content-center align-items-center caja-titulo">observa mis analisis</div>
+    </div>
+  </div>
+  <div class="container-fluid">
+
     <div class="row   pares">
-        
-        <div class="col-sm-6 col-md-3 par"><img src="imagenes/b500.png" alt="imagen par"><div class="overlay-text">xauusd</div></div>
-        <div class="col-sm-6 col-md-3 par"><div class="overlay-text">eurusd</div><img src="imagenes/b500.png"  alt="imagen par"></div>
-        <div class="col-sm-6 col-md-3 par"><div class="overlay-text">V751s</div><img src="imagenes/b500.png"  alt="imagen par"></div>
-        <div class="col-sm-6 col-md-3 par"><div class="overlay-text">B500</div><img src="imagenes/b500.png"  alt="imagen par"></div>
+
+      <div class="col-sm-6 col-md-3 par"><img src="imagenes/b500.png" alt="imagen par">
+        <div class="overlay-text">xauusd</div>
+      </div>
+      <div class="col-sm-6 col-md-3 par">
+        <div class="overlay-text">eurusd</div><img src="imagenes/b500.png" alt="imagen par">
+      </div>
+      <div class="col-sm-6 col-md-3 par">
+        <div class="overlay-text">V751s</div><img src="imagenes/b500.png" alt="imagen par">
+      </div>
+      <div class="col-sm-6 col-md-3 par">
+        <div class="overlay-text">B500</div><img src="imagenes/b500.png" alt="imagen par">
+      </div>
     </div>
-</div>
+  </div>
 
-    <!-- FOOTER -->
+  <!-- FOOTER -->
 
-    <footer>
-        <div class="container-fluid bg-dark pie">
-            <div class="row contactos">
-                <div class="col copy">&copy; 2025 Jose A. Romero P<p>JamesTown, New York</p></div>
-                <div class="col social"><i class="bi bi-instagram"></i><i class="bi bi-youtube"></i></div>
-            </div>
-            
-
-    </footer>
+  <footer>
+    <div class="container-fluid bg-dark pie">
+      <div class="row contactos">
+        <div class="col copy">&copy; 2025 Jose A. Romero P<p>JamesTown, New York</p>
+        </div>
+        <div class="col social"><i class="bi bi-instagram"></i><i class="bi bi-youtube"></i></div>
+      </div>
 
 
+  </footer>
 
 
-    <!-- BOOTSTRAPJAVASCRIPT -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
 
-    <!-- ARCHIVO EXTERNO .JS PARA EL USO DE LA API -->
-     <script src="Api.js"></script>
 
-     <!-- NO SCRIPT USADO PARA CUANDO UN NAVEGADOR TIENE DESACTIVADO JAVASCRIPT -->
+  <!-- BOOTSTRAPJAVASCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
-     <noscript>
-      <p> Bienvenido a mi sitio</p>
-      <p>Esta Web Trabaja con Javascript, si esta desactivada porfavor activelo</p>
-     </noscript>
+  <!-- ARCHIVO EXTERNO .JS PARA EL USO DE LA API -->
+  <script src="Api.js"></script>
+
+  <!-- NO SCRIPT USADO PARA CUANDO UN NAVEGADOR TIENE DESACTIVADO JAVASCRIPT -->
+
+  <noscript>
+    <p> Bienvenido a mi sitio</p>
+    <p>Esta Web Trabaja con Javascript, si esta desactivada porfavor activelo</p>
+  </noscript>
 </body>
 
 </html>

@@ -78,6 +78,21 @@ body {
     margin-top: 60px;
 }
 
+/* TIPOGRAFIA TEMA */
+
+#collapseOne{
+
+    text-align: justify;
+    
+}
+
+.titulo-tema{
+
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+
 
 .video {
 
