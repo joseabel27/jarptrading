@@ -80,7 +80,7 @@ body {
 
 /* TIPOGRAFIA TEMA */
 
-#collapseOne{
+.accordion-body{
 
     text-align: justify;
     
