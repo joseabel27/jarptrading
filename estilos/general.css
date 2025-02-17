@@ -72,6 +72,7 @@ body {
 
 
 
+
 .temas {
 
     /* border:solid 2px blue; */
@@ -80,7 +81,7 @@ body {
 
 /* TIPOGRAFIA TEMA */
 
-#collapseOne{
+.accordion-body{
 
     text-align: justify;
     
