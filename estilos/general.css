@@ -211,7 +211,11 @@ h2 {
 
 }
 
+.pares {
 
+    border: solid 2px green;
+    min-height: 300px;
+}
 
 
 
